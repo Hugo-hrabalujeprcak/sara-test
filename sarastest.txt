@@ -1,0 +1,47 @@
+double: Desetinné číslo (např. 3.14)
+bool: Pravda/nepravda (true nebo false ⟶ nic jiného do bool proměnné uložit nejde)
+int cislo = random.shared.next(0,20);
+if (cislo > 10)
+{
+console.wirteline("x");
+}
+if (cislo <10)
+{
+console.writeline("y");
+}
+console.foregroundColor = consolecolor. Green;
+int a = 1;
+while (a<101)
+{
+console.writeline(a + "% hackování");
+a += 1;
+thread.sleep(600);
+console.clear()
+}
+int[] pole = {1,50,189};
+foreach (int cisilko in pole)
+{console.writeline (cisilko);}
+string[] zkratkystatu = {ČR, IT, DE}
+Console.readline();
+& &  - obě podmínky pravdivé
+   int x = 10;
+  int y = 20;
+  if (x > 5 && y > 15) 
+  {
+    Console.WriteLine("Obě podmínky jsou splněny");
+   }
+|| - staci jedna pravdiva 
+if (x < 15 || y < 15) 
+{
+    Console.WriteLine("Alespoň jedna podmínka je splněna");
+}
+int[] nouzovaCisla = new int[4]; // Pole do kterého můžeš vložit až 4 čísla
+string[] emptyArray = new string[7]; // Pole do kterého můžeš vložit 7 textů ..
+Console.BackgroundColor = ConsoleColor.Blue
+DateTime now = DateTime.Now;
+Console.WriteLine(now);
+DateTime start = new DateTime(2024, 12, 1);
+DateTime konec = new DateTime(2024, 12, 25);
+TimeSpan rozdil = end - konec;
+Console.WriteLine("Rozdíl ve dnech: " + rozdil.Days);
+Console.WriteLine("Rozdíl v hodinách: " + rozdil.TotalHours);
